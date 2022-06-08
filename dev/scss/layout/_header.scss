@@ -1,0 +1,94 @@
+/* =============
+    Header
+============= */
+
+
+header {
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    @include md {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: auto;
+        left: 0;
+    }
+
+    padding-bottom: 24px;
+    background-color: var(--teal);
+
+
+    div {
+
+
+
+@include md{
+    display: grid;
+    grid-template-rows: auto;
+    margin-right: auto;
+}
+
+        #leaf-logo {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 72px;
+            padding: 24px 24px 24px 24px;
+
+            button {
+                background-color: transparent;
+                border: none;
+            }
+        }
+
+
+
+        #header-holder {
+
+            display: flex;
+            align-items: center;
+
+            img {
+                // width: 10%
+                width: 72px;
+            }
+
+            section {
+                h1 {
+
+                    @include md {
+                        display: block;
+                        font-size: rem-calc(32);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(40);
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+// .headline {
+//   grid-template-columns: 75% auto;
+//   color: #39B6FD;
+// }

@@ -1,0 +1,119 @@
+#article-title {
+    margin-top: 44px;
+    margin-bottom: 24px;
+    color: var(--dark-blue);
+    font-size: rem-calc(16);
+    font-weight: 600;
+
+    @include md {
+        font-size: rem-calc(24);
+        font-weight: 600;
+    }
+}
+
+.article-cards {
+    padding: 0px 16px 16px 16px;
+}
+
+
+
+
+
+#article-layout {
+    >div {
+
+        ul {
+
+            display: grid;
+            gap: 16px;
+    
+    
+            @include md {
+                grid-area: ac;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas:
+                    "c1 c1 c2 c2"
+                    "c3 c3 c4 c4"
+                    ". c5 c5 .";
+            }
+
+            li{
+
+                aside{
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center;
+
+                    @include xl{
+                        height: 250px;
+                    }
+                }
+            }
+    
+            #c1 {
+                @include md {
+                    grid-area: c1;
+                }
+
+                aside{
+                    background-image: url('../img/article headers/daber.png');
+                }
+            }
+    
+            #c2 {
+                @include md {
+                    grid-area: c2;
+                }
+                aside{
+                    background-image: url('../img/article headers/fishing guy.png');
+                }
+            }
+    
+            #c3 {
+                @include md {
+                    grid-area: c3;
+                }
+                aside{
+                    background-image: url('../img/article headers/nighty fishing guy.png');
+                    background-position: center top;
+                }
+            }
+    
+            #c4 {
+                @include md {
+                    grid-area: c4;
+                }
+                aside{
+                    background-image: url('../img/article headers/flora.png');
+                }
+            }
+    
+            #c5 {
+                @include md {
+                    grid-area: c5;
+                }
+                aside{
+                    background-image: url('../img/article headers/museum.png');
+                }
+            }
+    
+            @include lg {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas:
+                    "c1 c1 c2 c2 c3 c3"
+                    ". c4 c4 c5 c5 .";
+    
+    
+            }
+
+           
+        }
+
+    }
+
+    
+}
+
+#art-img {
+    width: 100%;
+}

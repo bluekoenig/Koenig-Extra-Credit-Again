@@ -1,0 +1,89 @@
+/* =============
+    Typography
+============= */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+   
+    background: #ffffff;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    @include sm {
+        display: none;
+    }
+
+    @include md {
+        display: block;
+        grid-template-columns: 75% auto;
+        font-family: "open sans", sans-serif;
+        font-size: rem-clac(24);
+        color: var(--dark-teal)
+    }
+}
+
+h6 {
+    font-size: rem-clac(16);
+    padding: 0px;
+    margin: 16px 0px 16px 0px;
+    color: var(--dark-tan);
+}
+
+h3{
+    margin-bottom: 12px;
+}
+
+h4{
+    margin-bottom: 12px;
+}
+
+p{
+    padding: 6px 0px 6px 0px;
+
+    @include md{
+        padding: 16px 0px 16px 0px;
+    }
+}
+
+address{
+    font-style: normal;
+}
+
+
+.bold-font {
+    // >section{
+    font-size: rem-calc(14);
+    font-weight: 600;
+
+    @include md {
+        font-size: rem-calc(18);
+        font-weight: 600;
+    }
+
+    @include lg{
+        font-size: rem-calc(24);
+        font-weight: 600;
+    }
+
+    // }
+
+}
+
+.semi-bold {
+
+    font-size: rem-calc(24);
+    font-weight: 300;
+    padding: 8px 8px 8px 8px;
+
+    @include md {
+        font-size: rem-calc(36);
+        font-weight: 300;
+    }
+}

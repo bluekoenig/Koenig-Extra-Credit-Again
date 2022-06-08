@@ -1,0 +1,238 @@
+#hero {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('../img/hero image/new-hero-image.jpg');
+    background-size: 100%;
+    background-position: center center;
+
+    @include lg {
+        height: 70vh;
+        background-position: center left;
+    }
+}
+
+
+.callout-pad-left {
+    margin: 16px 16px 16px 0px;
+    padding: 24px 16px 24px 16px;
+
+    @include md {
+        margin: 24px 0px 24px 0px;
+    }
+
+
+    div {
+        display: flex;
+
+
+
+
+        aside {
+            background-image: url('../img/icons/coelocanth.png');
+
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            margin-left: auto;
+
+            @include md {
+                img {
+                    display: none;
+                }
+
+                width: 113px;
+                height: 113px;
+                background-size: cover;
+
+            }
+        }
+    }
+
+}
+
+// .callout-pic {
+//     margin-left: auto;
+// }
+
+
+
+.callout-pad-right {
+    margin: 16px 16px 16px 0px;
+    padding: 24px 16px 24px 16px;
+
+
+    @include md {
+        margin: 24px 0px 24px 0px;
+    }
+
+
+    div {
+        display: flex;
+
+
+        aside {
+            background-image: url('../img/icons/fisherman.png');
+
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            margin-left: auto;
+
+            @include md {
+                img {
+                    display: none;
+                }
+
+                width: 113px;
+                height: 113px;
+                background-size: cover;
+                margin-left: auto;
+            }
+        }
+
+    }
+
+}
+
+.detail-button {
+    button {
+        display: flex;
+        align-items: center;
+cursor: pointer;
+
+        span {
+            display: none;
+
+            @include lg {
+                display: block;
+                padding: 0px 10px 0px 0px;
+            }
+        }
+    }
+}
+
+.callout-image {
+    margin-left: auto;
+    div {
+        aside {
+
+            display: flex;
+            margin-left: auto;
+
+
+        }
+    }
+
+}
+
+#best-friends-container {
+
+    @include xxl {
+
+        .under-left {
+            display: grid;
+            grid-template-columns: 16px 485px auto;
+            grid-template-areas: ". bfc .";
+        }
+
+        .under-right {
+            display: grid;
+            grid-template-columns: auto 485px 16px;
+            grid-template-areas: ". bfc .";
+        }
+
+    }
+
+    .flex-arrows {
+        display: flex;
+        padding: 16px 16px 16px 16px;
+
+        aside {
+            margin-left: auto;
+            align-content: center;
+
+        }
+
+    }
+
+    div {
+        // align-items: center;
+        
+        @include sm {
+            grid-template-areas: "quote button";
+        }
+
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include xxl {
+            grid-area: bfc;
+        }
+
+
+
+        .best-friends-content {
+            // grid-template-columns: 75% auto;
+            padding: 16px;
+
+            button {
+                display: inline-block;
+                font-size: rem-calc(16);
+
+                @include md {
+                    display: inline-block;
+
+                }
+            }
+        }
+    }
+
+
+    .quote {
+        grid-area: quote;
+    }
+
+    .button {
+        grid-area: button;
+    }
+
+}
+
+
+#callouts {
+
+    @include xxl {
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". callouts .";
+    }
+
+    >div {
+
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 16px
+        }
+
+        @include xxl {
+            grid-area: callouts;
+        }
+
+
+    }
+
+    >aside {
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 16px
+        }
+
+        @include xxl {
+            grid-area: callouts;
+        }
+    }
+}

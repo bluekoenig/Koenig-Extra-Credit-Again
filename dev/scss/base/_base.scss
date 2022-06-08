@@ -1,0 +1,106 @@
+/* =============
+    Base
+============= */
+html{
+    scroll-behavior: smooth;
+}
+
+.show-menu{
+    display: block !important;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+
+    .css-grid{
+    
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". big-grid .";
+
+        @include xxl {
+            grid-template-columns: auto 1440px auto;
+        }
+        
+        >div{
+            grid-area: big-grid;
+        }
+    }
+
+
+// .best-friends{
+//     display: grid;
+//     grid-template-columns: 16px 50% 50% 16px;
+//     grid-template-areas: ". work .";
+
+//     >div{
+//         grid-area: work;
+        
+//     }
+
+// }
+
+.search-grid{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". please .";
+
+    >div{
+        grid-area: please;
+    }
+}
+
+
+
+.desktop-up{
+
+    display: none;
+    
+    @include lg{
+        display: block;
+    }
+}
+
+.tablet-up{
+    display: none;
+    
+    @include md{
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+   
+}
+
+.tablet-down{
+     
+    @include sm{
+        display: block;
+    }
+
+    @include md{
+        display:block;
+    
+    }
+
+    @include lg{
+        display: none;
+    }
+}
+
+.spacing{
+    margin-top: 24px;
+}
+
+.space-after{
+    margin-bottom: 24px;
+}
+
+
+    
+   

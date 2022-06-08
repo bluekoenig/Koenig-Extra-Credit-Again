@@ -1,0 +1,107 @@
+.dark-bleed {
+    background-color: var(--dark-blue);
+    color: black;
+
+    >img{
+        width: 100%;
+    }
+}
+
+.light-bleed {
+    background-color: var(--blue);
+    color: black;
+
+    
+
+    @include md {
+        font-size: rem-calc(20);
+    }
+    >img{
+        width: 100%;
+    }
+}
+
+.green-bleed {
+    background-color: var(--teal);
+    color: black;
+
+    @include md {
+        font-size: rem-calc(20);
+    }
+    >img{
+        width: 100%;
+    }
+}
+
+.button-color-light{
+    button{
+        background-color: var(--blue);
+        border: none;
+    }
+    
+}
+
+.detail-button-dark{
+    button{
+        background-color: var(--dark-blue);
+        border: none;   
+    }
+   
+}
+
+.button-color-dark{
+    button{
+        background-color: var(--dark-blue);
+        border: none;
+
+        cursor: pointer;
+                transition: .25s;
+
+                &:hover{
+                  background-color: var(--dark-dark-blue);
+                }
+    }
+}
+
+.button2-color-light{
+    button{
+        background-color: var(--dark-blue);
+        border: none;
+        padding: 12px 12px 12px 12px;
+
+        cursor: pointer;
+                transition: .25s;
+
+                &:hover{
+                  background-color: var(--dark-dark-blue);
+                }
+    }
+}
+
+.button2-color-dark{
+    button{
+        background-color: var(--dark-teal);
+        border: none;
+        padding: 12px 12px 12px 12px;
+
+        cursor: pointer;
+                transition: .25s;
+
+                &:hover{
+                  background-color: var(--dark-dark-teal);
+                }
+    }
+}
+
+.input-color{
+    div{
+        input{
+        background-color: var(--teal);
+        padding: 16px 16px 16px 16px;
+        border: none;
+        margin-bottom: 24px;
+          }
+    }
+    
+   
+}
