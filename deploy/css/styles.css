@@ -546,6 +546,7 @@ span {
 }
 
 .yellow-button {
+  grid-area: yel-but;
   background-color: var(--button-yellow);
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
@@ -554,6 +555,13 @@ span {
   border: none;
   padding: 16px 36px 16px 36px;
   border-radius: 50px;
+}
+
+.burger-fix {
+  grid-area: burg;
+  background-color: transparent;
+  border: none;
+  padding: 16px 16px 16px 16px;
 }
 
 /* =============
@@ -680,41 +688,11 @@ header {
   width: 100%;
   padding-bottom: 24px;
 }
-@media (min-width: 768px) {
-  header div {
-    display: grid;
-    grid-template-rows: auto;
-    margin-right: auto;
-  }
-}
-header div #leaf-logo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 72px;
-  padding: 24px 24px 24px 24px;
-}
-header div #leaf-logo button {
-  background-color: transparent;
-  border: none;
-}
-header div #header-holder {
-  display: flex;
-  align-items: center;
-}
-header div #header-holder img {
-  width: 72px;
-}
-@media (min-width: 768px) {
-  header div #header-holder section h1 {
-    display: block;
-    font-size: 2rem;
-  }
-}
-@media (min-width: 1024px) {
-  header div #header-holder section h1 {
-    font-size: 2.5rem;
-  }
+header div {
+  padding: 16px 8px 16px 8px;
+  display: grid;
+  grid-template-columns: 10% 40% 50%;
+  grid-template-areas: "burg . yel-but";
 }
 header .mobile {
   display: block;
@@ -1026,175 +1004,33 @@ footer > div #follow div ul li {
   }
 }
 
-.callout-pad-left {
-  margin: 16px 16px 16px 0px;
-  padding: 24px 16px 24px 16px;
-}
-@media (min-width: 768px) {
-  .callout-pad-left {
-    margin: 24px 0px 24px 0px;
-  }
-}
-.callout-pad-left div {
-  display: flex;
-}
-.callout-pad-left div aside {
-  background-image: url("../img/icons/coelocanth.png");
-  width: 85px;
-  height: 85px;
-  border-radius: 100%;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .callout-pad-left div aside {
-    width: 113px;
-    height: 113px;
-    background-size: cover;
-  }
-  .callout-pad-left div aside img {
-    display: none;
-  }
-}
-
-.callout-pad-right {
-  margin: 16px 16px 16px 0px;
-  padding: 24px 16px 24px 16px;
-}
-@media (min-width: 768px) {
-  .callout-pad-right {
-    margin: 24px 0px 24px 0px;
-  }
-}
-.callout-pad-right div {
-  display: flex;
-}
-.callout-pad-right div aside {
-  background-image: url("../img/icons/fisherman.png");
-  width: 85px;
-  height: 85px;
-  border-radius: 100%;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .callout-pad-right div aside {
-    width: 113px;
-    height: 113px;
-    background-size: cover;
-    margin-left: auto;
-  }
-  .callout-pad-right div aside img {
-    display: none;
-  }
-}
-
-.detail-button button {
-  display: flex;
+.circ {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 33% auto 33%;
+  grid-template-areas: ". circ-area .";
+  justify-items: center;
   align-items: center;
-  cursor: pointer;
-}
-.detail-button button span {
-  display: none;
-}
-@media (min-width: 1024px) {
-  .detail-button button span {
-    display: block;
-    padding: 0px 10px 0px 0px;
-  }
 }
 
-.callout-image {
-  margin-left: auto;
-}
-.callout-image div aside {
-  display: flex;
-  margin-left: auto;
+.circ-area {
+  grid-area: circ-area;
+  width: 100%;
 }
 
-@media (min-width: 1440px) {
-  #best-friends-container .under-left {
-    display: grid;
-    grid-template-columns: 16px 485px auto;
-    grid-template-areas: ". bfc .";
-  }
-  #best-friends-container .under-right {
-    display: grid;
-    grid-template-columns: auto 485px 16px;
-    grid-template-areas: ". bfc .";
-  }
-}
-#best-friends-container .flex-arrows {
-  display: flex;
-  padding: 16px 16px 16px 16px;
-}
-#best-friends-container .flex-arrows aside {
-  margin-left: auto;
-  align-content: center;
-}
-@media (min-width: 576px) {
-  #best-friends-container div {
-    grid-template-areas: "quote button";
-  }
-}
-@media (min-width: 768px) {
-  #best-friends-container div {
-    display: grid;
-    grid-template-columns: 50% auto;
-  }
-}
-@media (min-width: 1440px) {
-  #best-friends-container div {
-    grid-area: bfc;
-  }
-}
-#best-friends-container div .best-friends-content {
-  padding: 16px;
-}
-#best-friends-container div .best-friends-content button {
-  display: inline-block;
-  font-size: 1rem;
-}
-@media (min-width: 768px) {
-  #best-friends-container div .best-friends-content button {
-    display: inline-block;
-  }
-}
-#best-friends-container .quote {
-  grid-area: quote;
-}
-#best-friends-container .button {
-  grid-area: button;
+.had-line {
+  margin-top: 36px;
+  font-family: "Comfortaa", cursive;
+  font-size: 3rem;
+  color: var(--but-yellow);
+  text-align: center;
 }
 
-@media (min-width: 1440px) {
-  #callouts {
-    display: grid;
-    grid-template-columns: auto 1440px auto;
-    grid-template-areas: ". callouts .";
-  }
-}
-@media (min-width: 768px) {
-  #callouts > div {
-    display: grid;
-    grid-template-columns: 50% auto;
-    gap: 16px;
-  }
-}
-@media (min-width: 1440px) {
-  #callouts > div {
-    grid-area: callouts;
-  }
-}
-@media (min-width: 768px) {
-  #callouts > aside {
-    display: grid;
-    grid-template-columns: 50% auto;
-    gap: 16px;
-  }
-}
-@media (min-width: 1440px) {
-  #callouts > aside {
-    grid-area: callouts;
-  }
+.bold-things {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 36px 0px 24px 0px;
 }
 
 .skills-back {

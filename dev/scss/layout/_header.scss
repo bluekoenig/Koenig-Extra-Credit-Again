@@ -13,58 +13,11 @@ header {
 
 
     div {
-
-
-
-@include md{
-    display: grid;
-    grid-template-rows: auto;
-    margin-right: auto;
-}
-
-        #leaf-logo {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            width: 72px;
-            padding: 24px 24px 24px 24px;
-
-            button {
-                background-color: transparent;
-                border: none;
-            }
-        }
-
-
-
-        #header-holder {
-
-            display: flex;
-            align-items: center;
-
-            img {
-                // width: 10%
-                width: 72px;
-            }
-
-            section {
-                h1 {
-
-                    @include md {
-                        display: block;
-                        font-size: rem-calc(32);
-                    }
-
-                    @include lg {
-                        font-size: rem-calc(40);
-                    }
-                }
-            }
-        }
-
-
-
-
+        padding: 16px 8px 16px 8px;
+display: grid;
+grid-template-columns: 10% 40% 50%;
+grid-template-areas: 
+"burg . yel-but";
 
 
 

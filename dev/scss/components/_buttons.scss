@@ -16,6 +16,7 @@ span{
 }
 
 .yellow-button{
+    grid-area: yel-but;
     background-color: var(--button-yellow);
     font-family: 'Open Sans', sans-serif;
     font-size: rem-calc(18);
@@ -24,4 +25,11 @@ span{
     border: none;
     padding: 16px 36px 16px 36px;
     border-radius: 50px;
+}
+
+.burger-fix{
+    grid-area: burg;
+    background-color: transparent;
+    border: none;
+    padding: 16px 16px 16px 16px;
 }
