@@ -5,21 +5,11 @@
 
 header {
 
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
-    left: 0;
-
-    @include md {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        bottom: auto;
-        left: 0;
-    }
 
     padding-bottom: 24px;
-    background-color: var(--teal);
+   
 
 
     div {
@@ -78,6 +68,22 @@ header {
 
 
 
+    }
+
+    .mobile{
+        display: block;
+
+        @include md{
+            display: none;
+        }
+    }
+
+    .tab{
+        display: none;
+
+        @include md{
+            display: block;
+        }
     }
 
 }

@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/.gitattributes" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitattributes",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -29,99 +21,21 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/article headers\/daber.png" : {
-      "ft" : 32768,
-      "iS" : 25920,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/daber.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/article headers\/fishing guy.png" : {
-      "ft" : 32768,
-      "iS" : 26674,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/fishing guy.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/article headers\/flora.png" : {
-      "ft" : 32768,
-      "iS" : 21661,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/flora.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/article headers\/museum.png" : {
-      "ft" : 32768,
-      "iS" : 22195,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/museum.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/article headers\/new-hero-image.jpg" : {
-      "ft" : 16384,
-      "iS" : 169412,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/new-hero-image.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/article headers\/nighty fishing guy.png" : {
-      "ft" : 32768,
-      "iS" : 25158,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/article headers\/nighty fishing guy.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/header\/Animal_Crossing_Leaf.svg" : {
+    "\/deploy\/img\/burger.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/Animal_Crossing_Leaf.svg",
+      "oAP" : "\/deploy\/img\/burger.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/Logo 1.png" : {
+    "\/deploy\/img\/Component 1.png" : {
       "ft" : 32768,
-      "iS" : 1469,
+      "iS" : 185,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/Logo 1.png",
+      "oAP" : "\/deploy\/img\/Component 1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -130,11 +44,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero image\/hero image.png" : {
+    "\/deploy\/img\/Component 2.png" : {
       "ft" : 32768,
-      "iS" : 127191,
+      "iS" : 185,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero image\/hero image.png",
+      "oAP" : "\/deploy\/img\/Component 2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -143,12 +57,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero image\/new-hero-image.jpg" : {
+    "\/deploy\/img\/Component 3.png" : {
+      "ft" : 32768,
+      "iS" : 187,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Component 3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery-1.jpg" : {
       "ft" : 16384,
-      "iS" : 240298,
+      "iS" : 135031,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero image\/new-hero-image.jpg",
+      "oAP" : "\/deploy\/img\/gallery-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -156,12 +83,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero image\/photo-gallery-2.jpg" : {
+    "\/deploy\/img\/gallery-2.jpg" : {
       "ft" : 16384,
-      "iS" : 183896,
+      "iS" : 76128,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero image\/photo-gallery-2.jpg",
+      "oAP" : "\/deploy\/img\/gallery-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -169,12 +96,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero image\/photo-gallery-5.jpg" : {
+    "\/deploy\/img\/gallery-3.jpg" : {
       "ft" : 16384,
-      "iS" : 133258,
+      "iS" : 67491,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero image\/photo-gallery-5.jpg",
+      "oAP" : "\/deploy\/img\/gallery-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -182,12 +109,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero image\/photo-gallery-7.jpg" : {
+    "\/deploy\/img\/gallery-4.jpg" : {
       "ft" : 16384,
-      "iS" : 96002,
+      "iS" : 163501,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero image\/photo-gallery-7.jpg",
+      "oAP" : "\/deploy\/img\/gallery-4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -195,11 +122,76 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/arrow.png" : {
-      "ft" : 32768,
-      "iS" : 553,
+    "\/deploy\/img\/gallery-6.jpg" : {
+      "ft" : 16384,
+      "iS" : 89948,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/arrow.png",
+      "oAP" : "\/deploy\/img\/gallery-6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery-7.jpg" : {
+      "ft" : 16384,
+      "iS" : 45641,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery-7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/grid-bot.jpg" : {
+      "ft" : 16384,
+      "iS" : 105587,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/grid-bot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Hero 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 90878,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Hero 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 14874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Hero.png" : {
+      "ft" : 32768,
+      "iS" : 169777,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -208,96 +200,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/coelocanth.png" : {
-      "ft" : 32768,
-      "iS" : 4652,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/coelocanth.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/facebook.png" : {
-      "ft" : 32768,
-      "iS" : 346,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/facebook.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/fisherman.png" : {
-      "ft" : 32768,
-      "iS" : 3317,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/fisherman.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/image 2.png" : {
-      "ft" : 32768,
-      "iS" : 30841,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/image 2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/inta.png" : {
-      "ft" : 32768,
-      "iS" : 503,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/inta.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/location-arrow-light.svg" : {
+    "\/deploy\/img\/icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/location-arrow-light.svg",
+      "oAP" : "\/deploy\/img\/icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/mobile-android-light.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/mobile-android-light.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/icons\/Path.png" : {
+    "\/deploy\/img\/Rectangle 2 Copy 3.png" : {
       "ft" : 32768,
-      "iS" : 216,
+      "iS" : 161,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/Path.png",
+      "oAP" : "\/deploy\/img\/Rectangle 2 Copy 3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -306,155 +223,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/phone.png" : {
+    "\/deploy\/img\/Rectangle 2.png" : {
       "ft" : 32768,
-      "iS" : 311,
+      "iS" : 174,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/phone.png",
+      "oAP" : "\/deploy\/img\/Rectangle 2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/Shape.png" : {
-      "ft" : 32768,
-      "iS" : 635,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/Shape.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/Shape.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/Shape.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/icons\/twitter.png" : {
-      "ft" : 32768,
-      "iS" : 422,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/twitter.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/icons\/youtube.png" : {
-      "ft" : 32768,
-      "iS" : 379,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icons\/youtube.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 1.png" : {
-      "ft" : 32768,
-      "iS" : 128355,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 2.jpeg" : {
-      "ft" : 16384,
-      "iS" : 132358,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 2.png" : {
-      "ft" : 32768,
-      "iS" : 106094,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 3.png" : {
-      "ft" : 32768,
-      "iS" : 97704,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 5.jpeg" : {
-      "ft" : 16384,
-      "iS" : 69891,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 7.jpeg" : {
-      "ft" : 16384,
-      "iS" : 64543,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/large images\/photo gallery 7.jpg" : {
-      "ft" : 16384,
-      "iS" : 77490,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/large images\/photo gallery 7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -478,14 +255,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/articles.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 3
-    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -502,13 +271,21 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/dev\/content\/searchbar.kit" : {
+    "\/dev\/content\/hero2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
+    },
+    "\/dev\/content\/skills.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -868,7 +645,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 671031902.95721602,
-    "displayValue" : "HTML-Project-Koenig",
+    "displayValue" : "Koenig_Extra_Credit",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-cocaine",
     "iconImageWasSetByUser" : 1
