@@ -528,6 +528,23 @@ address {
   }
 }
 
+.italic {
+  padding: 0px 16px 0px 16px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.no-clue {
+  padding: 0px 16px 72px 16px;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+  text-align: justify;
+}
+
 /* =============
     Buttons
 ============= */
@@ -1031,6 +1048,13 @@ footer > div #follow div ul li {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   margin: 36px 0px 24px 0px;
+}
+
+.bold-things2 {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding: 124px 0px 0px 16px;
 }
 
 .skills-back {
