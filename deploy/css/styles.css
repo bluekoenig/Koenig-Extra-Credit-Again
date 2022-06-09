@@ -14,6 +14,7 @@ html {
   --but-yellow: #F8C832;
   --dark-gray: #222222;
   --button-yellow: #FCCB31;
+  --white: #FFFFFF;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -940,9 +941,9 @@ footer > div #follow div ul li {
   width: 100%;
 }
 
-.callout-things > div {
-  display: grid;
-  grid-template-columns: 75% auto;
+.hero2 img {
+  width: 100%;
+  padding-bottom: 72px;
 }
 
 #gallery ul {
@@ -1057,56 +1058,70 @@ footer > div #follow div ul li {
   padding: 124px 0px 0px 16px;
 }
 
+.circ2 {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: auto 30% auto;
+  grid-template-areas: ". circ-area2 .";
+}
+
+.circ-area2 {
+  grid-area: circ-area;
+}
+
 .skills-back {
   background-color: var(--dark-gray);
 }
 
-@media (min-width: 768px) {
-  #search {
-    margin-top: 145px;
-  }
-}
-@media (min-width: 1024px) {
-  #search {
-    margin-top: 190px;
-  }
-}
-#search > div > section {
-  display: flex;
-}
-#search > div > section > input {
+.big-pic {
   width: 100%;
-  border: none;
-  padding: 16px 16px 0px 16px;
-  border-bottom: 3px solid var(--dark-blue);
-  border-radius: 0%;
 }
-#search > div > section ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: var(--blue);
-  opacity: 1;
-  /* Firefox */
+
+.headish {
+  font-size: 1.3125rem;
+  font-family: "Open Sans", sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
 }
-#search > div > section :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: var(--blue);
+
+.parg {
+  font-size: 1rem;
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 16px 0px 16px;
 }
-#search > div > section ::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: var(--blue);
+
+.the-guys {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
 }
-#search > div > section button {
-  padding: 16px 16px 16px 16px;
-  margin: 16px 16px 16px 16px;
-  background-color: var(--dark-blue);
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  transition: 0.25s;
+
+.the-guys2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
 }
-#search > div > section button > img {
-  width: 36px;
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: 16px auto auto auto 16px;
+  grid-template-areas: ". head . numb ." ". bar bar bar .";
+  padding-bottom: 64px;
 }
-#search > div > section button:hover {
-  background-color: var(--dark-dark-blue);
+
+.head {
+  grid-area: head;
+}
+
+.numb {
+  grid-area: numb;
+}
+
+.bar {
+  grid-area: bar;
+  width: 100%;
 }

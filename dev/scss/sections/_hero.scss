@@ -51,3 +51,14 @@ grid-template-areas:
     padding: 124px 0px 0px 16px;
 }
 
+.circ2{
+    margin-top: 36px;
+    display: grid;
+grid-template-columns: auto 30% auto;
+grid-template-areas: 
+". circ-area2 .";
+}
+
+.circ-area2{
+    grid-area: circ-area;
+}

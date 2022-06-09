@@ -1,66 +1,53 @@
-#search {
+.big-pic{
+  width: 100%;
+}
 
-  @include md{
-    margin-top: 145px;
-  }
+.headish{
+  font-size: rem-calc(21);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
+}
 
-  @include lg{
-    margin-top: 190px;
-  }
+.parg{
+  font-size: rem-calc(16);
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 16px 0px 16px;
+}
 
-    >div {
-        >section {
+.the-guys{
+  font-size: rem-calc(18);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
+}
 
-display: flex;
+.the-guys2{
+  font-size: rem-calc(18);
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--white);
+  padding: 36px 16px 0px 16px;
+}
 
-            >input {
-                width: 100%;
-                border: none;
-                // box-sizing: border-box;
-                padding: 16px 16px 0px 16px;
-                border-bottom: 3px solid var(--dark-blue);
-                border-radius: 0%;
-                // margin: 20px 20px 20px 20px;
-                
-            }
-            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: var(--blue);
-                opacity: 1; /* Firefox */
-              }
-              
-              :-ms-input-placeholder { /* Internet Explorer 10-11 */
-                color: var(--blue);
-              }
-              
-              ::-ms-input-placeholder { /* Microsoft Edge */
-                color: var(--blue);
-              }
+.skill-grid{
+  display: grid;
+  grid-template-columns: 16px auto auto auto 16px;
+  grid-template-areas: 
+  ". head . numb ."
+  ". bar bar bar .";
 
+  padding-bottom: 64px;
+}
 
-            button {
-                padding: 16px 16px 16px 16px;
-                margin: 16px 16px 16px 16px;
-                background-color: var(--dark-blue);
-                border-radius: 5px;
-                border: none;
-
-                
-                >img {
-                    width: 36px;
-                }
-
-                cursor: pointer;
-                transition: .25s;
-
-                &:hover{
-                  background-color: var(--dark-dark-blue);
-                }
-
-            }
-
-
-        }
-
-    }
-
+.head{
+  grid-area: head;
+}
+.numb{
+  grid-area: numb;
+}
+.bar{
+  grid-area: bar;
+  width: 100%;
 }
